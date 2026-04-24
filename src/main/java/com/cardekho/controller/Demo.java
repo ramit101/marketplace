@@ -8,5 +8,11 @@ public class Demo {
         return "friend";
     }
 
+    public void method2(){
+        System.out.println("this is after add .");
+        Demo d1 = new Demo();
+    }
+
+
 
 }
